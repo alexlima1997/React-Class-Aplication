@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+    width: 50%;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+.search-container{
+    margin-bottom: 30px;
+}
+
+.search-container h1{
+    margin-bottom: 30px;
+}
